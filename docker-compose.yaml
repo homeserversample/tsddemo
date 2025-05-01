@@ -1,0 +1,22 @@
+# Notes:
+#
+# tsdproxy : run once to create config file : 
+#            then create and set: autkKey: "key from tailscale" 
+#            get "reusable", "ephemeral" authKey from tailscale settings
+#
+#            enter in : ./submodules/almeidapaulopt/tsdproxy/config/tsdproxy.yaml
+#
+#     like this...
+#
+#        tailscale:
+#            providers:
+#                default:
+#                    authKey: "key from tailscale"
+#            
+# 
+
+
+include: 
+  - ./tsdproxy/docker-compose.yaml
+  - ./immich/docker/docker-compose.yml
+  - ./docker-plex/docker-compose.yaml
