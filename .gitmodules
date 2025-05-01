@@ -1,0 +1,9 @@
+[submodule "immich"]
+	path = immich
+	url = https://github.com/homeserversample/immich.git
+[submodule "docker-plex"]
+	path = docker-plex
+	url = https://github.com/homeserversample/docker-plex.git
+[submodule "tsdproxy"]
+	path = tsdproxy
+	url = https://github.com/homeserversample/tsdproxy.git
